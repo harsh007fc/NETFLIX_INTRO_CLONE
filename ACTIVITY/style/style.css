@@ -166,7 +166,7 @@ img{
     justify-content: center;
     
 }
-
+/* tab_2_content */
 #tab_2_content .tab_2_content_top{
     display: grid;
     grid-template-columns:2fr 1fr;
@@ -184,6 +184,35 @@ img{
     justify-content: center;
     align-items: center;
 }
+
+/* tab 3 content */
+/* table */
+.table{
+    width:100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table thead th{
+    text-transform: uppercase;
+    padding: 0.8rem;
+}
+
+.table tbody tr td{
+    color:#999;
+    padding:0.8rem 1.2rem;
+    text-align: center;
+}
+
+.table tbody tr td:first-child{
+    text-align: left;
+}
+
+.table tbody tr:nth-child(odd){
+    background-color: #222;
+}
+
 
 /* container class */
 .container{
