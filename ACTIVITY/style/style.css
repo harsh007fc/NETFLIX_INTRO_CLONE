@@ -158,6 +158,16 @@ img{
     color:#fff;
 }
 
+/* hide content initially */
+#tab_1_content,
+#tab_2_content,
+#tab_3_content{
+    display:none;
+}
+.show{
+    display: block !important;
+}
+
 #tab_1_content .tab_1_content_inner{
     display: grid;
     grid-template-columns: repeat(2,1fr);
